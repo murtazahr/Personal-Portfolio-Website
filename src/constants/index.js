@@ -8,12 +8,12 @@ import {
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
+    angular,
+    spring,
     nodejs,
     mongodb,
     git,
-    figma,
+    spark,
     docker,
     gs,
     monash,
@@ -21,7 +21,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -80,12 +79,12 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Spring Boot",
+        icon: spring,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
+        name: "Angular",
+        icon: angular,
     },
     {
         name: "Node JS",
@@ -96,16 +95,12 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "Apache Spark",
+        icon: spark,
     },
     {
         name: "git",
         icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
     },
     {
         name: "docker",
@@ -169,27 +164,27 @@ const introduction = "I'm a software engineer at Goldman Sachs with experience i
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Murtaza goes out of his way to ensure that the work he produces is nothing less that perfect. He is a highly motivated individual who actively looks for more responsibilities.",
+        name: "Leonardy Huang",
+        designation: "AVP (Engineering)",
+        company: "Photobook Worldwide",
+        image: "https://media.licdn.com/dms/image/C5103AQFdWmF1JZo0Vw/profile-displayphoto-shrink_800_800/0/1542128636444?e=1689811200&v=beta&t=ZfGeUJP8jrZCubDbSZEkDuAPE3toTbBxSizLXQd9lj0",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Murtaza is motivated, hardworking, and constantly shows strong desire to learn new and challenging technologies. He is a fast learner and a team player.",
+        name: "Dr Chong Chun Yong",
+        designation: "Senior Lecturer",
+        company: "Monash University",
+        image: "https://media.licdn.com/dms/image/C5603AQFWqoLliUIasA/profile-displayphoto-shrink_800_800/0/1643274057880?e=1689811200&v=beta&t=7PIx3yrg81ZbxC2b5VLbSvfR51A3iaKhgWntq3LM7FY",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Murtaza willingly takes initiative and is a natural leader which truly makes him stand out from the crowd. He is always there to help his team and has great communication skills.",
+        name: "Anonymous",
+        designation: "VP",
+        company: "Goldman Sachs",
+        image: "https://static.vecteezy.com/system/resources/previews/001/840/618/original/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
     },
 ];
 
