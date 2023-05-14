@@ -1,7 +1,7 @@
 import {
-    mobile,
     backend,
-    creator,
+    architect,
+    quant,
     web,
     javascript,
     typescript,
@@ -46,16 +46,16 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
         title: "Backend Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "Quant Developer",
+        icon: quant,
+    },
+    {
+        title: "Software Architect",
+        icon: architect,
     },
 ];
 
@@ -169,6 +169,8 @@ const experiences = [
     },
 ];
 
+const introduction = "I'm a software engineer at Goldman Sachs with experience in developing and maintaining portfolio management platforms and implementing agile project management methods. I'm proficient in Java, Spring Boot, Angular, SQL and noSQL databases, and cloud computing. I possess strong analytical, technical and problem-solving skills. I'm also a Summa Cum Laude with Honours and Dean’s List recipient from Monash University.";
+
 const testimonials = [
     {
         testimonial:
@@ -262,4 +264,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, introduction};
