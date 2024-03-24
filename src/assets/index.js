@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import gs from "./company/gs.png";
 import monash from "./company/monash.png";
 import photobook from "./company/photobook.png";
+import unimelb from "./company/unimelb.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -51,6 +52,7 @@ export {
   typescript,
   gs,
   monash,
+  unimelb,
   photobook,
   carrent,
   jobit,
