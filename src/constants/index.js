@@ -21,7 +21,7 @@ import {
     summiz,
     tailwindcss,
     typescript,
-    blockchain, spring, angular, gcp, aws, mysql, java, matlab, python, jupyter
+    blockchain, spring, angular, gcp, aws, mysql, java, matlab, python, jupyter, estate
 } from "../assets/icons";
 
 export const skills = [
@@ -223,7 +223,7 @@ export const projects = [
         link: 'https://github.com/QuivrHQ/quivr',
     },
     {
-        iconUrl: blockchain,
+        iconUrl: estate,
         theme: 'btn-back-green',
         name: 'Petition Filing Application',
         description: 'Built a proof of concept petition filing application using Fuel, an ethereum based modular execution layer.',
