@@ -1,130 +1,153 @@
+import {goldmansachs, monash, photobook, unimelb} from "../assets/images";
 import {
-    backend,
-    architect,
-    quant,
-    web,
-    javascript,
-    typescript,
-    html,
+    car,
+    contact,
     css,
-    reactjs,
-    angular,
-    spring,
-    nodejs,
-    mongodb,
+    express,
     git,
-    spark,
-    docker,
-    gs,
-    unimelb,
-    monash,
-    photobook,
-    carrent,
-    jobit,
-    tripguide,
-} from "../assets";
+    github,
+    html,
+    javascript,
+    linkedin,
+    mongodb,
+    motion,
+    mui,
+    nextjs,
+    nodejs,
+    pricewise,
+    react,
+    redux,
+    sass,
+    summiz,
+    tailwindcss,
+    typescript,
+    blockchain, spring, angular, gcp, aws, mysql, java, matlab, python, jupyter
+} from "../assets/icons";
 
-export const navLinks = [
+export const skills = [
     {
-        id: "about",
-        title: "About",
+        imageUrl: spring,
+        name: "Spring",
+        type: "Backend"
     },
     {
-        id: "work",
-        title: "Work",
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
     },
     {
-        id: "contact",
-        title: "Contact",
-    },
-];
-
-const services = [
-    {
-        title: "Cloud Researcher",
-        icon: web,
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
     },
     {
-        title: "Backend Developer",
-        icon: backend,
+        imageUrl: java,
+        name: "Java",
+        type: "Backend"
     },
     {
-        title: "Quant Developer",
-        icon: quant,
-    },
-    {
-        title: "Software Architect",
-        icon: architect,
-    },
-];
-
-const technologies = [
-    {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Spring Boot",
-        icon: spring,
-    },
-    {
-        name: "Angular",
-        icon: angular,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
+        imageUrl: mongodb,
         name: "MongoDB",
-        icon: mongodb,
+        type: "Database",
     },
     {
-        name: "Apache Spark",
-        icon: spark,
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Database"
     },
     {
-        name: "git",
-        icon: git,
+        imageUrl: angular,
+        name: "Angular",
+        type: "Frontend"
     },
     {
-        name: "docker",
-        icon: docker,
+        imageUrl: nextjs,
+        name: "Next.js",
+        type: "Frontend",
     },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: matlab,
+        name: "Matlab",
+        type: "Data Science"
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Data Science"
+    },
+    {
+        imageUrl: jupyter,
+        name: "Jupyter",
+        type: "Data Science"
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    },
+    {
+        imageUrl: gcp,
+        name: "Google Cloud Platform",
+        type: "Cloud Technology"
+    },
+    {
+        imageUrl: aws,
+        name: "Amazon Web Services",
+        type: "Cloud Technology"
+    }
 ];
 
-const experiences = [
+export const experiences = [
     {
-        title: "PhD Student",
+        title: "Phd Student",
         company_name: "University of Melbourne",
         icon: unimelb,
-        iconBg: "#383E56",
+        iconBg: "#FFFFFF",
         date: "June 2024 - Present",
         points: [
+            "Current PhD Student, CLOUDS Lab, University of Melbourne",
+            "Research Focus: Computing Efficiency and Cost Optimization in the Cloud",
+            "Investigating techniques to improve resource utilization and reduce operational costs for cloud computing platforms",
+            "Exploring algorithms, models, and strategies for efficient workload scheduling, resource allocation, and capacity planning",
+            "Collaborating with industry partners to validate research findings and ensure practical applicability"
         ],
     },
     {
         title: "Engineering Analyst",
         company_name: "Goldman Sachs",
-        icon: gs,
-        iconBg: "#383E56",
-        date: "August 2022 - March 2024",
+        icon: goldmansachs,
+        iconBg: "#d1dcf0",
+        date: "Aug 2022 - Mar 2024",
         points: [
             "Headed Thematic Portfolio Management System development, driving a theme-based stock strategy. Projected to attract $50M AUM through innovative features and strategic tech alignment.",
             "Uplifted the order execution workflow to allow for systematic execution of orders, saving 45 minutes per day for portfolio managers."
@@ -133,31 +156,32 @@ const experiences = [
     {
         title: "Summer Analyst",
         company_name: "Goldman Sachs",
-        icon: gs,
-        iconBg: "#E6DEDD",
-        date: "June 2021 - August 2021",
+        icon: goldmansachs,
+        iconBg: "#d1dcf0",
+        date: "Jun 2021 - Aug 2021",
         points: [
             "Engineered and implemented robust validations for the sale of complex derivatives, significantly elevating accuracy and efficiency across the entire end-to-end process.",
-            "Created API-driven feature switch for region-based releases and A/B testing, accelerating new feature deployments by 25%.",
+            "Created API-driven feature switch for region-based releases and A/B testing, accelerating new feature deployments by 25%."
         ],
     },
     {
-        title: "Undergraduate Researcher (Energy Trading Blockchain)",
+        title: "Undergraduate Research",
         company_name: "Monash University",
         icon: monash,
-        iconBg: "#383E56",
-        date: "April 2021 - July 2021",
+        iconBg: "#FFFFFF",
+        date: "Apr 2021 - Jul 2021",
         points: [
             "Spearheaded the development of a peer-to-peer blockchain-based energy trading platform in collaboration with Tenaga Nasional, Malaysia's largest electricity supplier.",
-            "Analyzed Hyperledger Besu and Hyperledger Fabric for a Proof of Authority consensus mechanism. Conducted efficient load tests with 30 general nodes and 2 authority nodes to optimize platform performance.",
+            "Analyzed Hyperledger Besu and Hyperledger Fabric for a Proof of Authority consensus mechanism. ",
+            "Conducted efficient load tests with 30 general nodes and 2 authority nodes to optimize platform performance."
         ],
     },
     {
         title: "Software Architect Intern",
         company_name: "Photobook Worldwide",
         icon: photobook,
-        iconBg: "#E6DEDD",
-        date: "July 2020 - December 2020",
+        iconBg: "#FFFFFF",
+        date: "Jul 2020 - Dec 2020",
         points: [
             "Orchestrated the e-photobook project to fruition, delivering 13,000 e-photobooks within 2-days post-launch and achieving an 83% customer satisfaction rating.",
             "Integrated web and mobile platforms with downstream applications (Zen for print production and Netsuite for accounting), reducing the end-to-end order cycle by 2 business days."
@@ -165,99 +189,51 @@ const experiences = [
     },
 ];
 
-const introduction = "As a Ph.D. student at the University of Melbourne, my focus lies in cloud computing research, building upon my background as a software engineer at Goldman Sachs. There, I specialized in crafting and managing cloud-based portfolio management platforms, leveraging agile project management techniques. Proficient in Java, Spring Boot, Angular, SQL, and noSQL databases—all within the context of cloud computing—I bring a wealth of technical expertise to the table. My journey commenced at Monash University, where I graduated Summa Cum Laude for my undergraduate studies, highlighting my dedication to excellence in the field.";
-
-const testimonials = [
+export const socialLinks = [
     {
-        testimonial:
-            "Murtaza goes out of his way to ensure that the work he produces is nothing less that perfect. He is a highly motivated individual who actively looks for more responsibilities.",
-        name: "Leonardy Huang",
-        designation: "AVP (Engineering)",
-        company: "Photobook Worldwide",
-        image: "https://media.licdn.com/dms/image/C5103AQFdWmF1JZo0Vw/profile-displayphoto-shrink_800_800/0/1542128637406?e=1717027200&v=beta&t=KBgF6h1hPCKslA7VEfau6cWWs1as8r24OQ-5lY6Hkew",
+        name: 'Contact',
+        iconUrl: contact,
+        link: '/contact',
     },
     {
-        testimonial:
-            "Murtaza is motivated, hardworking, and constantly shows strong desire to learn new and challenging technologies. He is a fast learner and a team player.",
-        name: "Dr Chong Chun Yong",
-        designation: "Senior Lecturer",
-        company: "Monash University",
-        image: "https://media.licdn.com/dms/image/C5603AQFWqoLliUIasA/profile-displayphoto-shrink_800_800/0/1643274058240?e=1717027200&v=beta&t=ZqYH-BEAemhdS-3koZTywv3kge9OAolE8tqw5d_pK_k",
+        name: 'GitHub',
+        iconUrl: github,
+        link: 'https://github.com/murtazahr',
     },
     {
-        testimonial:
-            "Murtaza willingly takes initiative and is a natural leader which truly makes him stand out from the crowd. He is always there to help his team and has great communication skills.",
-        name: "Nitesh Kumar Mehta",
-        designation: "VP",
-        company: "Goldman Sachs",
-        image: "https://static.vecteezy.com/system/resources/previews/001/840/618/original/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-    },
+        name: 'LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/murtaza-rangwala-889064160',
+    }
 ];
 
-const projects = [
+export const projects = [
     {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Banking Application',
+        description: 'Created an end-to-end banking and financial management platform with a functioning payment gateway and platform based payment transfers.',
+        link: 'https://github.com/murtazahr/horizon-finance',
     },
     {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'GenerativeAI Second Brain',
+        description: 'Contributed to a generativeAI second brain platform called Quivr, which is now a Y2C affiliated company.',
+        link: 'https://github.com/QuivrHQ/quivr',
     },
     {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        iconUrl: blockchain,
+        theme: 'btn-back-green',
+        name: 'Petition Filing Application',
+        description: 'Built a proof of concept petition filing application using Fuel, an ethereum based modular execution layer.',
+        link: 'https://github.com/murtazahr/Digi-Sign-Petitions',
     },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'Number Plate Recognition',
+        description: 'Developed matlab scripts to perform OCR on number plates using template matching and machine learning approaches.',
+        link: 'https://github.com/murtazahr/Number-Plate-Recognition',
+    }
 ];
-
-export { services, technologies, experiences, testimonials, projects, introduction};
