@@ -18,7 +18,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          I've worked with numerous companies<br /> and picked up many skills along the way
+          I've worked with various different companies<br /> and picked up many skills along the way
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
@@ -48,7 +48,7 @@ const HomeInfo = ({ currentStage }) => {
         return (
             <div className='info-box'>
                 <p className='font-medium sm:text-xl text-center'>
-                    If you want to learn more about my research at CLOUDS Lab, University of Melbourne? <br/>
+                    If you want to learn more about my research at CLOUDS Lab, University of Melbourne... <br/>
                 </p>
 
                 <Link to='/research' className='neo-brutalism-white neo-btn'>
