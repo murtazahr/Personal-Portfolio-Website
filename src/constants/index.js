@@ -2,7 +2,6 @@ import {goldmansachs, monash, photobook, unimelb} from "../assets/images";
 import {
     car,
     contact,
-    css,
     express,
     git,
     github,
@@ -10,18 +9,23 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
     summiz,
     tailwindcss,
     typescript,
-    blockchain, spring, angular, gcp, aws, mysql, java, matlab, python, jupyter, estate
+    spring,
+    angular,
+    gcp,
+    aws,
+    mysql,
+    java,
+    matlab,
+    python,
+    jupyter,
+    estate
 } from "../assets/icons";
 
 export const skills = [

@@ -28,13 +28,11 @@ import java from './java.png'
 import matlab from './matlab.png'
 import python from './python.png'
 import jupyter from './jupyter.png'
-import navigate from './navigate.png'
 
 export {
     express,
     git,
     jupyter,
-    navigate,
     mysql,
     github,
     html,
